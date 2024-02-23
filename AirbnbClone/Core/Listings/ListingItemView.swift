@@ -19,17 +19,10 @@ struct ListingItemView: View {
     var body: some View {
         VStack(spacing: 8) {
             //images
-            TabView{
-                ForEach(images, id: \.self){ image in
-                    Image(image)
-                        .resizable()
-                        .scaledToFill()
-                    
-                }
-            }
-            .frame(height: 320)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-            .tabViewStyle(.page)
+            
+            ListingImageCarouselView()
+                .frame(height: 320)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
             
             //listingDetails
             HStack(alignment : .top){
@@ -37,6 +30,7 @@ struct ListingItemView: View {
                 VStack(alignment : .leading){
                     Text("Udaipur, Rajasthan")
                         .fontWeight(.semibold)
+                        .foregroundStyle(.black)
                     
                     Text("5 km away")
                         .foregroundStyle(.gray)
@@ -49,6 +43,7 @@ struct ListingItemView: View {
                             .fontWeight(.semibold)
                         Text("night")
                     }
+                    .foregroundStyle(.black)
                 }
                 
                 Spacer()
@@ -57,6 +52,7 @@ struct ListingItemView: View {
                     Image(systemName: "star.fill")
                     Text("4.86")
                 }
+                .foregroundStyle(.black)
                 
             }
             .font(.footnote)
