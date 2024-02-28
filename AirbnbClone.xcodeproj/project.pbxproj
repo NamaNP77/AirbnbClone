@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDE0F61F2B89FAF4008F08B6 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0F61E2B89FAF4008F08B6 /* DestinationSearchView.swift */; };
 		EDF7ECD62B76071E00FB1B17 /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7ECD52B76071E00FB1B17 /* AirbnbCloneApp.swift */; };
 		EDF7ECD82B76071E00FB1B17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7ECD72B76071E00FB1B17 /* ContentView.swift */; };
 		EDF7ECDA2B76072000FB1B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF7ECD92B76072000FB1B17 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDE0F61E2B89FAF4008F08B6 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		EDF7ECD22B76071E00FB1B17 /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF7ECD52B76071E00FB1B17 /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
 		EDF7ECD72B76071E00FB1B17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			children = (
 				EDF7ECEF2B76086500FB1B17 /* ExploreView.swift */,
 				EDF7ECF32B7613CC00FB1B17 /* SearchAndFilterBar.swift */,
+				EDE0F61E2B89FAF4008F08B6 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF7ECF92B76471100FB1B17 /* ListingImageCarouselView.swift in Sources */,
+				EDE0F61F2B89FAF4008F08B6 /* DestinationSearchView.swift in Sources */,
 				EDF7ECD82B76071E00FB1B17 /* ContentView.swift in Sources */,
 				EDF7ECF22B760A6200FB1B17 /* ListingItemView.swift in Sources */,
 				EDF7ECF02B76086500FB1B17 /* ExploreView.swift in Sources */,
