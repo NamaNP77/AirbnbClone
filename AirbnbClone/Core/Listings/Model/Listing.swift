@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Listing {
+struct Listing : Identifiable , Codable , Hashable{
     let id : String
     let ownerUid : String
     let ownerName : String

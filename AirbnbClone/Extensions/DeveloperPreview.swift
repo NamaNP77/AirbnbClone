@@ -8,6 +8,9 @@
 import Foundation
 
 class DeveloperPreview {
+    
+    static let shared = DeveloperPreview()
+    
     var listing: [Listing] = [
         .init(id: NSUUID().uuidString, ownerUid: NSUUID().uuidString, ownerName: "Naman", ownerImageUrl: "ProfilePhoto", numberOfBedroom: 4, numberOfBathroom: 4, numberOfGuest: 4, numberOfBeds: 4, pricePerNight: 6000, latitude: 28.7041, longitutde: 77.1025, imageURLs: ["listing-1" , "listing-2", "listing-3", "listing-4"], address: "Punjabi Bagh", city: "New Delhi", state: "Delhi", title: "Paradise", rating: 4.8, feature: [.selfCheckIn, .superHost], amenities: [.wifi,.tv,.pool,.office,.laundry,.kitchen,.balcony], type: .apartment),
         
